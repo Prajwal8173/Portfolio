@@ -62,8 +62,9 @@
         }
 
         .avatar img {
-            width: 100%;
-            border-radius: 50%;
+            width: 60%;
+            height: 60%!important;
+            border-radius: 60%;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         }
 
@@ -158,8 +159,7 @@
             background: var(--border-color);
             border: none;
             color: var(--text-color);
-            padding: 0.5rem;
-            border-radius: 50%;
+            border-radius: 150%;
             cursor: pointer;
             transition: all 0.3s ease;
             margin-left: 1rem;
@@ -197,7 +197,7 @@
             align-items: center;
             justify-content: space-between;
             max-width: 1200px;
-            padding: 2rem;
+            padding: 3rem;
             position: relative;
             z-index: 2;
         }
@@ -876,7 +876,7 @@
     <div class="avatar">
         <img src="avatar.png" alt="Avatar">
         <div class="avatar-speech" id="avatarSpeech">
-            Welcome to my portfolio! Let's explore together.
+            Welcome to Prajwal's Tech world! Let's explore together.
         </div>
     </div>
 
@@ -915,7 +915,10 @@
             </div>
             <div class="hero-text">
                 <h1>Prajwal Wakulkar</h1>
-                <p>🚀 "Turning Code into Impact, One Clean Commit at a Time."<br>Software Developer | Problem Solver | Passionate Speaker</p>
+                <p>🚀 "I don’t just write code — I make it talk, solve, and shine."
+<br>Software Developer | Brainstorm Boss | Stage-Ready
+
+</p>
                 <a href="Prajwal_cv.pdf" class="download-btn" download>
                     <i class="fas fa-download"></i> Download Resume
                 </a>
@@ -1047,7 +1050,7 @@
                     <h3>Tracking Ground Personnel</h3>
                     <p>Full-stack system using NFC, Flutter, React, and MySQL to track 100+ personnel in real-time with improved response times.</p>
                     <button class="read-more-btn" data-bs-toggle="modal" data-bs-target="#projectModal1">
-                        Read More <i class="fas fa-arrow-right"></i>
+                        Read More 
                     </button>
                 </div>
                 <div class="card animate-on-scroll">
@@ -1055,7 +1058,7 @@
                     <h3>Freelance Job Marketplace</h3>
                     <p>Responsive ReactJs app with real-time job updates and optimized performance with load times under 3 seconds.</p>
                     <button class="read-more-btn" data-bs-toggle="modal" data-bs-target="#projectModal2">
-                        Read More <i class="fas fa-arrow-right"></i>
+                        Read More 
                     </button>
                 </div>
                 <div class="card animate-on-scroll">
@@ -1063,7 +1066,7 @@
                     <h3>Restaurant Management System</h3>
                     <p>Comprehensive system with customer and admin modules handling 500+ daily transactions and 24/7 ordering capabilities.</p>
                     <button class="read-more-btn" data-bs-toggle="modal" data-bs-target="#projectModal3">
-                        Read More <i class="fas fa-arrow-right"></i>
+                        Read More
                     </button>
                 </div>
             </div>
@@ -1301,7 +1304,7 @@
         // Avatar functionality
         const avatarSpeech = document.getElementById('avatarSpeech');
         const messages = [
-            "Welcome to my portfolio! Let's explore together.",
+            "Welcome to Prajwal's Tech World! Let's explore together.",
             "Check out my education and experience!",
             "My skills are pretty cool, right?",
             "Want to see my projects? They're amazing!",
@@ -1330,7 +1333,7 @@
             const scrollPosition = window.scrollY;
 
             if (scrollPosition < 600) {
-                avatarSpeech.textContent = "Welcome to my portfolio! Let's explore together.";
+                avatarSpeech.textContent = "Welcome to Prajwal's Tech World! Let's explore together.";
             } else if (scrollPosition < 1200) {
                 avatarSpeech.textContent = "Check out my education and experience!";
             } else if (scrollPosition < 1800) {
